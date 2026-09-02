@@ -13,7 +13,7 @@
 </head>
 <body>
 <h1>Privacy Policy — Riddle me this</h1>
-<p><em>Last updated: 19 August 2026</em></p>
+<p><em>Last updated: 2 September 2026</em></p>
 
 <p>“Riddle me this” (the “app”) is an Android riddle game published by
 Juhan Tamm (“we”, “us”). This policy explains what data the app handles
@@ -22,20 +22,62 @@ and what happens to it.</p>
 <h2>The short version</h2>
 <ul>
   <li>Your game progress (solved riddles, hints, unlocks, settings) is stored
-      <strong>only on your device</strong>. We run no servers and cannot see it.</li>
-  <li>The app has <strong>no accounts and no sign-in</strong>.</li>
-  <li>The only third party that processes data is <strong>Google AdMob</strong>,
-      which serves the ads that keep the app free. In the European Economic
-      Area, ads only start after you make a consent choice.</li>
+      <strong>on your device</strong>. The app works fully offline and needs no
+      account.</li>
+  <li><strong>Cloud save is optional and off unless you turn it on.</strong> If
+      you do, you sign in with Google and your progress is also stored on our
+      Google Cloud project in Finland, so you can restore it on another device.
+      You can delete it from inside the app at any time.</li>
+  <li>If you send a <strong>bug report</strong> from Settings, the message you
+      type is stored on that same project, along with your app version and
+      Android version.</li>
+  <li><strong>Google AdMob</strong> serves the ads that keep the app free. In the
+      European Economic Area, ads only start after you make a consent choice.</li>
   <li>Buying “Remove ads” is handled entirely by Google Play; we never see your
       payment details.</li>
 </ul>
 
-<h2>Data stored on your device only</h2>
+<h2>Data stored on your device</h2>
 <p>The app saves your progress (which riddles you solved, attempts, unlocked
 hints and packs, riddle-of-the-day history) and your settings (notification
-preferences, purchase status) in the app’s private storage on your device.
-This data never leaves your device, and deleting the app deletes it.</p>
+preferences, appearance, purchase status) in the app’s private storage on your
+device. Deleting the app deletes it. Unless you turn on cloud save, this data
+stays on your device.</p>
+
+<h2>Cloud save (optional)</h2>
+<p>Cloud save is off by default. Turning it on, in
+<strong>Settings → Cloud save</strong>, means signing in with your Google
+account so your progress can be backed up and restored on another device.</p>
+<p>When you sign in, we receive from Google:</p>
+<ul>
+  <li>your <strong>email address</strong>, <strong>name</strong> and
+      <strong>profile picture</strong>, held in our authentication system to
+      identify your account;</li>
+  <li>a stable <strong>account identifier</strong>, which is what your saved
+      progress is filed under.</li>
+</ul>
+<p>What we then store against that identifier is your game progress only —
+solved riddles, attempt counts, unlocked hints and packs, and
+riddle-of-the-day history — plus the time it was last updated. Nothing else
+about you is stored, and the app never uploads your contacts, files, location
+or any device identifier as part of cloud save.</p>
+<p>The data is held in <strong>Google Cloud Firestore</strong> in the
+<code>europe-north1</code> region (Finland), inside the European Union, with
+Google acting as our processor. Access rules restrict each saved game so that
+only the signed-in account it belongs to can read or write it.</p>
+<p>The legal basis is your consent, given by choosing to turn cloud save on
+(GDPR art. 6(1)(a)). You can withdraw it at any time by deleting your cloud
+data, which also signs you out.</p>
+
+<h2>Bug reports</h2>
+<p>If you use <strong>Settings → Report a bug</strong>, we store what you type
+along with your app version, build number and Android version, so a problem can
+be reproduced. This is stored on the same Google Cloud project described above.</p>
+<p>Bug reports are not linked to your account, and you do not need to be signed
+in to send one. Please do not include personal details in the message — only
+what you type is sent, so what you leave out is not collected. Reports are
+deleted once the issue they describe is resolved, and in any case within
+12 months.</p>
 
 <h2>Advertising (Google AdMob)</h2>
 <p>The app shows ads through Google AdMob, a service of Google LLC. When ads
@@ -71,26 +113,46 @@ No push-notification service is used, and no data leaves your device for it.</p>
 <h2>Children</h2>
 <p>The app is intended for ages 13 and up and is not directed at children.</p>
 
-<h2>Data retention and deletion</h2>
-<p>We retain nothing, because we store nothing on servers. All app data lives
-on your device and is removed when you uninstall the app or clear its data.
-For data processed by Google (advertising), see
+<h2 id="delete-account">Deleting your account and data</h2>
+<p>If you turned on cloud save, you can delete everything we hold at any time:</p>
+<ol>
+  <li>open the app;</li>
+  <li>go to <strong>Settings → Cloud save</strong>;</li>
+  <li>tap <strong>Delete cloud data &amp; account</strong> and confirm.</li>
+</ol>
+<p>That erases your saved progress from our database and deletes your
+authentication record, including the email address, name and profile picture
+described above. It takes effect immediately and cannot be undone. Progress kept
+on your own device is left alone, so you can carry on playing offline.</p>
+<p>If you have already uninstalled the app, or would rather not do it yourself,
+email <strong>kolbakilu@gmail.com</strong> from the address you signed in with
+and ask for deletion. We will action it within 30 days and confirm by reply.</p>
+<p>To have a bug report deleted, email the same address with roughly when you
+sent it.</p>
+
+<h2>Data retention</h2>
+<p>Progress on your device is removed when you uninstall the app or clear its
+data. Cloud saves are kept until you delete them as described above, or until
+the account has been inactive for 24 months, after which they are removed. Bug
+reports are deleted once resolved, and within 12 months regardless. For data
+processed by Google for advertising, see
 <a href="https://myadcenter.google.com/">Google’s My Ad Center</a> and
 <a href="https://policies.google.com/privacy">Privacy Policy</a> for your
 controls and rights.</p>
 
 <h2>Your rights</h2>
 <p>Under the GDPR you have rights of access, rectification, erasure,
-restriction, portability, and objection regarding personal data. Since we hold
-no personal data about you, these rights are in practice exercised toward
-Google for advertising data (links above). You also have the right to lodge a
-complaint with your supervisory authority (in Estonia: Andmekaitse
-Inspektsioon).</p>
+restriction, portability, and objection regarding personal data. If you use
+cloud save, exercise them by emailing
+<strong>kolbakilu@gmail.com</strong> — erasure is also available directly in the
+app, as described above. If you do not use cloud save we hold no personal data
+about you, and for advertising data those rights are exercised toward Google
+(links above). You also have the right to lodge a complaint with your
+supervisory authority (in Estonia: Andmekaitse Inspektsioon).</p>
 
 <h2>Changes</h2>
-<p>If a future version of the app adds features that change what data is
-handled (for example an optional cloud save), this policy will be updated
-before that version is released, with the date above revised.</p>
+<p>If a future version of the app changes what data is handled, this policy will
+be updated before that version is released, with the date above revised.</p>
 
 <h2>Contact</h2>
 <p>Questions about this policy: <strong>kolbakilu@gmail.com</strong></p>
