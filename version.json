@@ -1,4 +1,4 @@
 {
-  "latestBuild": 4,
-  "notes": "A fresh new look, light mode, achievements and optional cloud save."
+  "latestBuild": 5,
+  "notes": "Fixes the wrong-answer message hiding behind the keyboard, the daily reminder's time zone, and text that was hard to read."
 }
