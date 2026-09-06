@@ -1,4 +1,4 @@
 {
-  "latestBuild": 5,
-  "notes": "Fixes the wrong-answer message hiding behind the keyboard, the daily reminder's time zone, and text that was hard to read."
+  "latestBuild": 6,
+  "notes": "Achievements now arrive with a bit of ceremony. Your daily riddle is never one you've already solved, lost streak days are given back, and ads interrupt half as often."
 }
